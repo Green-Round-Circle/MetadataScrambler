@@ -50,10 +50,10 @@ def edit_user_input(file,editable,editable_tags,mime):
     while True:
         choice = input(
             "\nSelect field number to edit "
-            "(e/q/0 to exit): "
+            "(e/q/0/x to exit): "
         ).strip().lower()
 
-        if choice in ("e", "q", "0", "exit","quit"):
+        if choice in ("e", "q", "0", "exit","quit","x"):
             print("Exiting metadata editor.")
             break
         if not choice.isdigit():
