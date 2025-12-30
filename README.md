@@ -42,7 +42,7 @@ For Linux:
 **Step 3**
 Run the application
 ## Usage/Examples
-
+For Windows:
 ```bash
   python app.py InputFile -h
   usage: app.py [-h] InputFile [-r | -s | -sr | -d | -e | -x]
@@ -60,3 +60,26 @@ Run the application
   -x, --exit        Exit program
 ```
 
+For Linux:
+```bash
+  chmod +x exiftool/Linux/exiftool
+  python3 app.py InputFile -h
+  usage: app.py [-h] InputFile [-r | -s | -sr | -d | -e | -x]
+
+  positional arguments:
+  InputFile         Input file
+
+  options:
+  -h, --help        show this help message and exit
+  -r, --read        Read metadata
+  -s, --scramble    Scramble metadata (same size)
+  -sr, --rscramble  Scramble metadata (random size)
+  -d, --delete      Delete metadata
+  -e, --edit        Edit metadata
+  -x, --exit        Exit program
+```
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
