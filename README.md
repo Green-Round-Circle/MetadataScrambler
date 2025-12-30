@@ -7,6 +7,10 @@ This tool helps you review your files’ metadata, allowing you to remove it, sc
 > We kill people based on metadata.
 
 
+**Important**:
+This application bundles ExifTool as an archived dependency and uses it as a standalone executable.
+Please be aware of the ExifTool version included, currently version 13.45.
+
 ## Installation
 
 **Step 1**
@@ -24,7 +28,7 @@ For Windows:
   .\.venv\Scripts\Activate.ps1
   pip install -r requirements.txt
 ```
-⚠️ If activation is blocked, run once:
+ If activation is blocked, run once:
 ```ps1
   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
