@@ -78,7 +78,7 @@ For Linux:
   -e, --edit        Edit metadata
   -x, --exit        Exit program
 ```
-
+![til](https://github.com/Green-Round-Circle/MetadataScrambler/blob/main/demo.gif)
 
 ## License
 
